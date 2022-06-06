@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Pet Shop</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav-info">
+            <p>Grandes ofertas en comederos</p>
             <ul>
-                <li>Grandes ofertas en comederos</li>
                 <li>Español</li>
                 <li>$ARG</li>
             </ul>
         </nav>
 
-        <nav>
+        <nav class="nav-menu">
             <img src="img/logo.svg">
             <ul>
                 <li>Categorías</li>
@@ -28,40 +32,77 @@
 
     </header>
     <main>
-        <section>
-            <img src="img/banner.png">
+        <section class="main-banner">
             <p>¡Es un placer tenerte aquí!</p>
+            <img src="img/main/banner.png">
             <p>¡Comederos en descuento!</p>
             <p>COMEDEROS</p>
         </section>
 
-        <section>
-            <img src="img/patita.png">
-            <h2>Productos Destacados</h2>
-            <p>Comederos - Accesorios - Comida</p>
+        <section class="main-products">
+            <img src="img/main/paw.svg">
+            <p id="welcome-msg">Productos Destacados</p>
+            <p id="categories">Comederos - Accesorios - Comida</p>
             <ul>
                 <li>
-                    <img src="img/productos/producto1.png">
+                    <img src="img/main/products/producto1.png">
                     <p>Juguete churrasquito</p>
                     <p>$150</p>
                 </li>
                 <li>
-                    <img src="img/productos/producto2.png">
+                    <img src="img/main/products/producto2.png">
                     <p>Comedero para perro</p>
                     <p>$200</p>
                 </li>
                 <li>
-                    <img src="img/productos/producto3.png">
+                    <img src="img/main/products/producto3.png">
                     <p>Juguete huesito</p>
                     <p>$350</p>
                 </li>
 
             </ul>
         </section>
+
+        <section class="main-contact">
+            <h2>Contáctanos</h2>
+
+            <input placeholder="Nombre y apellido">
+            <input placeholder="Ingresá tu correo electrónico">
+            <input placeholder="Teléfono">
+
+            <button>Resetear</button>
+            <button>Enviar</button>
+
+        </section>
+
+        <section class="main-suscription">
+            <img>
+            <h2>Suscríbete para más novedades</h2>
+            <input placeholder="Ingresá tu correo electrónico">
+            <button>Suscribirme</button>
+        </section>
     </main> 
 
     <footer>
-        <p>Todos los derechos reservados</p>
+        <section class="footer-info">
+            <img src="img/footer/localidad.svg">
+            <h2>Localidad</h2>
+            <p>Calle - provincia</p>
+
+            <img src="img/footer/telefono.svg">
+            <h2>Télefono</h2>
+            <p>Calle - provincia</p>  
+
+            <img src="img/footer/correo.svg">
+            <h2>Correo electrónico</h2>
+            <p>Calle - provincia</p>
+            
+            <img src="img/footer/logo-f.svg">
+        </section>
+        <section class="footer-legals">
+            Todos los derechos reservados Front End
+        </section>
+
     </footer>
 </body>
 </html>

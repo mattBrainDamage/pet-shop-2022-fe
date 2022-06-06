@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Encabezado*/
+
+header{
+
+
+}
+
+.nav-info{
+    font-size: 10px;
+    color: #F3F3F3;
+    background-color: #222222;
+}
+
+.nav-menu{
+    font-size: 13px;
+    color: #F3F3F3;
+    background-color: #F0A83E;
+}
+
+
+/* Contenido principal*/
+
+
+main{
+
+
+}
+
+.main-banner{
+
+
+}
+
+.main-banner img {
+    width: 100%;
+}
+
+.main-products #welcome-msg{
+
+    font-size: 40px;
+    font-weight:900;
+    text-align: center;
+}
+
+.main-products #categories{
+    text-align: center;
+}
+
+.main-products img{
+    text-align: center;
+}
+
+.main-contact{
+
+}
+
+.main-suscription{
+    color: #F3F3F3;
+    background-color: #F0A83E;
+}
+
+
+
+/*Pie de página*/
+
+footer{
+
+}
+
+.footer-info{
+    color: #F3F3F3;
+    background-color: #3C2313;
+}
+
+.footer-legals{
+    text-align: center;
+    color: #F3F3F3;
+    background-color: #222222;
+    font-size: 10px;
+}
